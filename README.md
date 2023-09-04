@@ -222,6 +222,20 @@ Còn khi dùng acc clone thì mình sử dụng như sau:
 git clone git@github-personal:codewithhoa/multi-git-account-on-laptop.git
 ```
 
+Sau khi vào thư mục dự án cụ thể, thì mình sẽ config user.name user.email cụ thể bằng cách thực thi file git.config.sh như sau:
+
+```sh
+chmod a+x git.config.sh
+./git.config.sh
+```
+
+Nó sẽ hiển thị ra prompt như sau:
+
+```sh
+  GIT profile:<Enter your profile you want personal or official>
+
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
